@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ComfortEyes</title>
+  <link rel="icon" type="image/x-icon" href="favi.png">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <br>
+  <a href="index.html" class="home-btn">
+    <img src="white-full-logo.png" alt="logo" class="logo-image">
+  </a>
+  <br>
+
+  <div class="dropdown">
+    <button class="dropbtn">Chatrooms</button>
+    <div class="dropdown-content">
+      <a href="j1_chat_COM.html">Community Chatroom</a>
+      <a href="j1_chat_MD.html">Chat with Specialists</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">Resources</button>
+    <div class="dropdown-content">
+      <a href="j2_meds.html">Medications</a>
+      <a href="j2_nutri.html">Nutritional Support</a>
+      <a href="j2_treatments.html">Treatment Options</a>
+      <a href="j2_other_help.html">Other Resources</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">About</button>
+    <div class="dropdown-content">
+      <a href="j3_TED.html">About Thyroid Eye Disease</a>
+      <a href="j3_aboutus.html">About Our Team</a>
+    </div>
+  </div>
+  <br>
+  <h1>Specialist Support</h1>
+
+  <div id="page-container">
+    <div id="content-wrap">
+      <div class="person-selector">
+        <button class="button person-selector-button active-person" id="MD-selector">MD</button>
+        <button class="button person-selector-button" id="user-selector">user</button>
+      </div>
+      <div class="chat-container">
+        <h2 class="chat-header">MD chatting...</h2>
+
+        <div class="chat-messages">
+          <div class="message blue-bg">
+            <div class="message-sender">MD</div>
+            <div class="message-text">Hello there! How can I help you today?</div>
+            <div class="message-timestamp">10:30 AM</div>
+          </div>
+          <div class="message gray-bg">
+            <div class="message-sender">user</div>
+            <div class="message-text">Hello! My eyes feel dry and irritated, and I've noticed some swelling around them.
+            </div>
+            <div class="message-timestamp">10:30 AM</div>
+          </div>
+        </div>
+
+        <form class="chat-input-form">
+          <input type="text" class="chat-input" required placeholder="Type here, MD..." />
+          <button type="submit" class="button send-button">Send</button>
+        </form>
+        <button class="button clear-chat-button">Clear Chat</button>
+      </div>
+
+      <div class="scroll-to-top" id="scrollToTopBtn">
+        <i class="fa fa-arrow-up"></i>
+      </div>
+
+    </div>
+    <footer id="footer">
+      <p>© 2023 ComfortEyes </p>
+    </footer>
+    <script src="script.js"></script>
+
+
+
+</body>
+
+
+</html>
